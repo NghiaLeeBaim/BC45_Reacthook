@@ -48,9 +48,9 @@ const Header = () => {
               <NavLink className="dropdown-item" to="/use-state-demo">
                 UseStateDemo
               </NavLink>
-              <a className="dropdown-item" to="#">
-                Action 2
-              </a>
+              <NavLink className="dropdown-item" to="/use-effect-demo">
+                UseEffectDemo
+              </NavLink>
             </div>
           </li>
         </ul>
